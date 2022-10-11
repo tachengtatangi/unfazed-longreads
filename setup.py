@@ -16,5 +16,5 @@ os.system('find ~ -type d -name unfazed | xargs -I {} cp informative_site_finder
 os.system('rm informative_site_finder.py __init__.py __main__.py '
           'read_collector.py site_searcher.py snv_phaser.py sv_phaser.py unfazed.py')
 print("--------------------------------------\n"
-      "Congratulations!\nyou have successfully configured\n"
+      "Congratulations!\nYou have configured successfully!\n"
       "--------------------------------------")
