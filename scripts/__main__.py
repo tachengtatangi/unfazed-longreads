@@ -82,7 +82,7 @@ def setup_args():
         help="choose output type. If --dnms is not a VCF/BCF,"
         + " output must be to BED format. Defaults to match --dnms input file",
         type=str,
-        choices=["vcf", "bed"],
+        default="bed",
     )
 
     parser.add_argument(
@@ -206,7 +206,7 @@ def setup_args():
         default=3,
     )
     parser.add_argument(
-        "--readlen", help="expected length of input reads", type=int, default=151
+        "--readlen", help="expected length of input reads", type=int, default=15000
     )
     parser.add_argument(
         "--split-error-margin",
