@@ -133,7 +133,7 @@ usage: unfazed [-h] [-v] -d DNMS -s SITES -p PED [-b BAM_DIR]
 
 ```shell
 unfazed\
-	-d alltri.bed\
+    -d alltri.bed\
     -s 729.vcf.gz\
     -p 1.ped\
     -o bed\
