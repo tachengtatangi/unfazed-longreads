@@ -1,6 +1,6 @@
 # Unfazed-longreads：phasing tool for *de novo* SNVs（third-generation sequencing）
 
-Unfazed-longreads identifies the parent of origin for *de novo* mutations from the third-generation sequencing bam file, accepting input from a bed file of variant information. Unfazed-longreads is applicable to *de novo* SNVs. We sincerely thank Jonathan R Belyeu for his second-generation sequencing phasing software unfazed(https://github.com/jbelyeu/unfazed), which allowed us to generate unfazed-longreads, see (and cite) his paper at https://academic.oup.com/bioinformatics/article/37/24/4860/6306405 and our paper at [~~unpublished~~]( 'When will it be published?').
+Unfazed-longreads identifies the parent of origin for *de novo* mutations from the third-generation sequencing bam file, accepting input from a bed file of variant information. Unfazed-longreads is applicable to *de novo* SNVs. We sincerely thank Jonathan R Belyeu for his second-generation sequencing phasing software unfazed(https://github.com/jbelyeu/unfazed), which allowed us to generate unfazed-longreads, see (and cite) his paper at https://academic.oup.com/bioinformatics/article/37/24/4860/6306405 and our paper at [~~unpublished~~]( https://github.com/tachengtatangi/unfazed-longreads 'When will it be published?').
 
 ## How it works
 
