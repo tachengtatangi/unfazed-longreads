@@ -8,6 +8,7 @@ if not os.path.exists("scripts.zip"):
           "please execute this command\n\n"
           "wget https://github.com/tachengtatangi/unfazed-longreads/raw/main/scripts.zip\n\n"
           "to ensure that the file is downloaded")
+    exit(0)
 
 os.system('unzip scripts.zip')
 os.system('rm scripts.zip')
