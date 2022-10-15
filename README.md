@@ -14,7 +14,7 @@ Because we are improving on Jonathan R Belyeu's unfazed, we use the original unf
 conda install -c bioconda unfazed
 ```
 
-After conda is installed, execute
+After conda is installed, download `setup.py` to an empty folder and then execute
 
 ```shell
 python setup.py
